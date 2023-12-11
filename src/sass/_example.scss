@@ -1,0 +1,88 @@
+.link {
+  width: 150px;
+  height: 50px;
+  background-color: rgba(5, 113, 22, 0.614);
+  color: white;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 15 20;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+.link:hover {
+  color: black;
+  background-color: tomato;
+}
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.clock {
+  margin: 0;
+  font-size: 32px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
+  margin-bottom: 15px;
+}
+
+.wrapper {
+}
+
+.timet-btn {
+  margin-left: 10px;
+  padding: 7px 2px;
+  border-radius: 5px;
+  border: solid 1px blue;
+  background-color: rgb(132, 240, 23);
+  color: blue;
+  cursor: pointer;
+}
+
+.timet-btn:hover {
+  background-color: blue;
+  color: black;
+}
+
+// !!!!! Timer SImakov !!!!!!
+
+.body-time {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.text-time {
+  font-size: 50px;
+}
+
+.time-button {
+  background-color: rgb(163, 51, 51);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.start-button {
+  background-color: rgb(61, 186, 61);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+#continueBtn:disabled,
+#stopBtn:disabled {
+  background-color: rgb(236, 230, 230);
+  cursor: default;
+}
