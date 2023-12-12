@@ -86,4 +86,25 @@
 // !!!!! Timer Rusin !!!!!
 .calendar {
   font-size: 26px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.data-style {
+  display: flex;
+}
+.data-style:not(:first-child) {
+  margin-left: 50px;
+}
+
+.digital-clock {
+  font-size: 26px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.data-link {
+  margin-left: 10px;
 }
