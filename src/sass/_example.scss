@@ -32,9 +32,6 @@
   margin-bottom: 15px;
 }
 
-.wrapper {
-}
-
 .timet-btn {
   margin-left: 10px;
   padding: 7px 2px;
@@ -50,7 +47,7 @@
   color: black;
 }
 
-// !!!!! Timer SImakov !!!!!!
+// !!!!! Timer Simakov !!!!!!
 
 .body-time {
   text-align: center;
@@ -87,4 +84,32 @@
   cursor: default;
 }
 
+<<<<<<< HEAD
 // clock
+=======
+// !!!!! Timer Rusin !!!!!!
+.calendar {
+  font-size: 26px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.data-style {
+  display: flex;
+}
+.data-style:not(:first-child) {
+  margin-left: 50px;
+}
+
+.digital-clock {
+  font-size: 26px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.data-link {
+  margin-left: 10px;
+}
+>>>>>>> 88dc647038a8c53a4deee5c88d1f0dc057c35c54
