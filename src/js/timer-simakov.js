@@ -80,7 +80,7 @@ class Timer {
     const now = Date.now();
     const diff = this.newYearDate - now;
     const time = this.getTimeComponets(diff);
-    updateClockYext(time);
+    this.onTick(time);
 
     if (diff <= 0) {
       stopInterval();
