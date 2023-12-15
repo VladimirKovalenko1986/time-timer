@@ -1,3 +1,4 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
 .link {
   width: 150px;
   height: 50px;
@@ -18,12 +19,14 @@
   color: black;
   background-color: tomato;
 }
+
 .conteiner {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .clock-time {
   margin: 0;
   font-size: 32px;
@@ -46,8 +49,6 @@
   background-color: blue;
   color: black;
 }
-
-// !!!!! Timer Simakov !!!!!!
 
 .body-time {
   text-align: center;
@@ -84,7 +85,7 @@
   background-color: rgb(236, 230, 230);
   cursor: default;
 }
-// !!!!! Timer Rusin !!!!!
+
 .calendar {
   font-size: 26px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -92,9 +93,11 @@
   justify-content: center;
   color: white;
 }
+
 .data-style {
   display: flex;
 }
+
 .data-style:not(:first-child) {
   margin-left: 50px;
 }
@@ -112,7 +115,6 @@
   margin-left: 10px;
 }
 
-// Механічні стрілки
 body {
   background-image: url(https://i.ibb.co/Wt6q4QP/1-y-X7-Vd1-G1wi9-F0vth-LEh-AA.jpg);
   background-size: cover;
@@ -163,9 +165,10 @@ body {
   width: 7px;
   height: 33%;
 }
+
 .clock-hours__arrow {
   bottom: 50%;
   left: 50%;
   width: 12px;
   height: 24%;
-}
+}/*# sourceMappingURL=index.css.map */
